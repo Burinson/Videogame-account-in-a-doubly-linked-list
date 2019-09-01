@@ -1,0 +1,53 @@
+eliminar archivos de almacenamiento
+ejecutar
+Crear cuenta c1 u1 e1@e1 p1
+Crear cuenta c2 u2 e2@e2 p2
+Crear cuenta c3 u3 e3@e3 p3
+Crear cuenta c4 u4 e4@e4 p4
+Crear cuenta c5 u5 e5@e5 p5
+mostrar todos
+-----------------------------
+Salir
+mostrar archivo de almacenamiento
+ejectutar
+mostrar todos
+acceder a c3
+    intentar modificar username a u2
+    modificar username a u30
+    salir
+mostrar todo
+intentar acceder a u3
+intentar acceder a u4 con password erroneo
+acceder a c4
+    eliminar
+mostrar todo
+-------------------------------
+salir
+ejecutar
+intentar crear cuenta c6 u5 e6@e6 p6
+intentar crear cuenta c6 u6 e1@e1 p6
+mostrar todo
+
+//////////////////////////////////////////////////////
+1 c1 e1@e1 u1 p1
+1 c2 e2@e2 u2 p2
+1 c3 e3@e3 u3 p3
+1 c4 e4@e4 u4 p4
+1 c5 e5@e5 u5 p5
+--
+3
+3
+---------------------------
+2 u3 p3
+2 3 u2
+3 u30
+0 0
+3 2 u4 incorrecto
+2 u4 p4
+3
+3
+---------------------------
+1 c6 e6@e6 u5 p6
+1 c6 e1@e1 u6 p6
+---------------------------
+
